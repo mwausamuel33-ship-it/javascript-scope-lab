@@ -1,20 +1,17 @@
+const burgers = ["Hamburger", "Cheeseburger"];
 
-const burgers = ['Hamburger', 'Cheeseburger'];
-
-module.exports = burgers;
-
-let featuredDrink = 'Strawberry Milkshake';
+let featuredDrink = "Strawberry Milkshake";
 
 function addBurger() {
-  const newBurger = 'Flatburger';
+  const newBurger = "Flatburger";
   burgers.push(newBurger);
 }
 
-if(true) {
-  const anotherNewBurger = 'Maple Bacon Burger';
+if (true) {
+  const anotherNewBurger = "Maple Bacon Burger";
   burgers.push(anotherNewBurger);
 }
 
 function changeFeaturedDrink() {
-  featuredDrink = 'The JavaShake';
+  featuredDrink = "The JavaShake";
 }
