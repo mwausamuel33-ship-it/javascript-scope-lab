@@ -1,12 +1,12 @@
-const burgers = ["Humberger", "CheeseBurger"];
-let featuredDrink = "strawberry Milkshake";
+const burgers = ["Hamburger", "CheeseBurger"];
+let featuredDrink = "Strawberry Milkshake";
 
-function addburger() {
-  const newburger = "flatburger";
+function addBurger() {
+  const newburger = "Flatburger";
   burgers.push(newburger);
 }
 
-if (true) {
+if(true) {
   const anotherNewBurger = "Maple Bacon Burger";
   burgers.push(anotherNewBurger);
 }
