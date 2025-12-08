@@ -1,4 +1,8 @@
-const burgers = ['Hamburger', 'CheeseBurger'];
+
+const burgers = ['Hamburger', 'Cheeseburger'];
+
+module.exports = burgers;
+
 let featuredDrink = 'Strawberry Milkshake';
 
 function addBurger() {
